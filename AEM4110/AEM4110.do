@@ -1,5 +1,5 @@
 *File -> Change Working Directory
-cd "Z:\jrg363\Workshops FA24\Stata Class Workshops\AEM4110"
+*cd "Z:\jrg363\Workshops FA24\Stata Class Workshops\AEM4110"
 
 *Clear everythting
 clear all
