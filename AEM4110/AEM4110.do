@@ -17,23 +17,6 @@ end
 *Stata can only be working with 1 dataset at a time.
 clear
 *file -> import -> Excel Spreadsheet
-import excel "SampleData.xlsx", sheet("SalesOrders") firstrow clear
-
-*Desscribe the data. 
-*Data -> Describe Data
-describe
-codebook
-
-*view/edit dataset
-*Data -> Data Editor  -> 'Colors of variables and what they mean. '
-browse
-edit
-
-*save dataset. file -> Save
-save "Sample_data", replace
-
-*re-open. File -> Open
-use Sample_data, clear
 
 *Bring up a sample dataset for summary stats
 sysuse auto, clear
